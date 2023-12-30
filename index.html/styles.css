@@ -3,6 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 li {
     list-style: none;
@@ -14,7 +15,13 @@ a{
 .hero-container, footer {
     background-color: #1f2937;
     color: white;
-    padding: 25px;
+    padding: 35px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 header {
     display: flex;
@@ -28,6 +35,13 @@ header {
     margin: auto 85px;
     text-align: center;
 }
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.hero-text p {
+    font-size: 18px;
+}
 ul {
     display: flex;
     flex: 1; /* so flex 1 makes it so that items thats a column can wrap like a row */
@@ -37,12 +51,30 @@ ul {
 .lower-hero {
     display: flex;
     flex: 1;
-    margin: auto 85px;
+    margin: auto;
     flex-wrap: wrap;
     padding: 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 .hero-img {
-    width: 500px;
+    width: 460px;
     height: auto;
-    margin-left: auto;
+    padding: 15px;
+}
+.hero-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+    height: auto;
+}
+.button {
+    border: 3px solid #3882f6;
+    background: #3882f6;
+    border-radius: 5px;
+    padding: 5px;
+    width: 95px;
+    height: auto;
+    text-align: center;
 }
