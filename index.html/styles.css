@@ -2,10 +2,33 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
 }
 li {
     list-style: none;
 }
 a{
     text-decoration: none;
+    color: #e5e7eb;
+}
+.hero-container, footer {
+    background-color: #1f2937;
+    color: white;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+ul {
+    display: flex;
+    flex: 1; /* so flex 1 makes it so that items thats a column can wrap like a row */
+    gap: 20px;
 }
