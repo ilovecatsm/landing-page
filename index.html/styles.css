@@ -82,7 +82,6 @@ ul {
 .info-sect {
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -92,9 +91,8 @@ ul {
 h2 {
     display: flex;
     text-align: center;
-    height: auto;
+    padding-bottom: 50px;
     font-size: 24px;
-    
 }
 .info-img {
     width: 300px;
@@ -104,14 +102,21 @@ h2 {
     gap: 25px;
     
 }
-.img-container {
-    display: flex;
-    flex-shrink: 1;
-    margin: 0;
-}
 .info-text {
     display: flex;
-    margin: auto;
-    padding: 10px;
     flex-shrink: 0;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.img-container, .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
 }
