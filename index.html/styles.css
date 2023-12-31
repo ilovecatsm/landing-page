@@ -128,20 +128,17 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-basis: 1;
-    padding: 65px;
-    margin: auto;
+    padding: 85px;
     background-color: rgb(231, 231, 231);
+    flex-shrink: 1;
     
 }
 .author {
     display: flex;
-    margin-right: auto;
     padding: 5px;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 200px;
+    width: 250px;
     height: auto;
     margin-top: 50px;
     font-size: 24px;
@@ -149,9 +146,14 @@ h2 {
 }
 .nyan {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
     font-size: 36px;
-    width: 460px;
+    width: 200px;
     font-style: italic;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 10px;
+}
+.nyan {
+    margin-left: 95px;
+    margin-right: 95px;
 }
