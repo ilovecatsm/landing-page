@@ -99,24 +99,59 @@ h2 {
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(155, 119, 64);
-    gap: 25px;
     
+}
+.img-container {
+    gap: 55px;
 }
 .info-text {
     display: flex;
     flex-shrink: 0;
     flex-wrap: wrap;
-    margin-right: 20px;
+    margin: auto;
+    padding-top: 15px;
 }
 .img-container, .text-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
 }
 .text-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
+    gap: 90px;
+}
+/* inspirational quote section */
+.quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    padding: 65px;
+    margin: auto;
+    background-color: rgb(231, 231, 231);
+    
+}
+.author {
+    display: flex;
+    margin-right: auto;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.nyan {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    font-size: 36px;
+    width: 460px;
+    font-style: italic;
 }
