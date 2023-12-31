@@ -87,11 +87,11 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 50px;
+    width: 460px;
 }
 h2 {
     display: flex;
     text-align: center;
-    width: 460px;
     height: auto;
     font-size: 24px;
     
@@ -99,9 +99,19 @@ h2 {
 .info-img {
     width: 300px;
     height: auto;
-    display: flex;
-    flex-shrink: 1;
     border-radius: 10px;
     border: 2px solid rgb(155, 119, 64);
-    gap: 15px;
+    gap: 25px;
+    
+}
+.img-container {
+    display: flex;
+    flex-shrink: 1;
+    margin: 0;
+}
+.info-text {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    flex-shrink: 0;
 }
