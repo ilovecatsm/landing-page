@@ -21,7 +21,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 50px;
 }
 header {
     display: flex;
@@ -156,4 +156,26 @@ h2 {
 .nyan {
     margin-left: 95px;
     margin-right: 95px;
+}
+.cta-section {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background: #84b3ff;
+    flex-wrap: wrap;
+    padding: 35px;
+    width: 600px;
+    height: auto;
+    margin: 50px auto;
+    
+    border-radius: 15px;
+    gap: 15px;
+}
+.cta-section p {
+    color: white;
+}
+.p-header {
+    font-weight: bolder;
+    font-size: 20px;
 }
